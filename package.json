@@ -1,30 +1,24 @@
 {
-  "name": "emaily-app-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "engines": {
-    "node": "8.1.1",
-    "npm": "5.0.3"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^2.4.1",
-    "prettier": "1.18.2",
-    "pretty-quick": "^1.11.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
+    "name": "emaily-app-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": "8.1.1",
+        "npm": "5.0.3"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "1.18.2",
+        "pretty-quick": "^1.11.1"
     }
-  }
 }
